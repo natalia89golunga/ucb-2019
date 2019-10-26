@@ -1,0 +1,85 @@
+index.css
+
+h1 {
+  text-shadow: 2px 2px blue;
+  color: #36CFFF;
+}
+#rc1 {
+  border-radius: 30px;
+  background: yellow;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  background: url(./ocean.jpg);
+}
+#rc3 {
+  border-radius: 30px;
+  background: pink;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+
+.rc2 {
+  border-radius: 40px;
+  border: 2px solid #8AC007;
+  background: pink;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  # background: url(./ocean.jpg);
+  background: -webkit-linear-gradient(purple,orange);
+  background: -o-linear-gradient(purple;orange);
+  background: -moz-linear-gradient(purple,orange);
+  background: linear-gradient(purple,orange);
+}
+.sh1 {
+  box-shadow: 5px 10px #888888;
+  font-family: georgia, garamond, serif;
+  font-weight: 350;
+}
+
+.my-heading {
+ font-family: arial sans-serif serif;
+ font-size: 20px;
+ color: red;
+}
+.my-margin {
+  margin-top:
+}
+
+.my-div {
+  width: 700px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 0px;
+}
+
+.my-div {
+  background-color: blue;
+}
+
+.nav-myfont {
+  color: red;
+  font-size: 35px;
+}
+
+
+.header {
+  color: grey;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 40px;
+}
+.header2 {
+  color: grey;
+  font-size: 30px;
+  margin-top: 60px;
+
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}

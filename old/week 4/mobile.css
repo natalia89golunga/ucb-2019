@@ -1,0 +1,15 @@
+.my-heading {
+ font-family: arial sans-serif serif;
+ font-size: 20px;
+ color: red;
+}
+.my-margin {
+  margin-top:
+}
+
+.my-div {
+  width: 700px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 0px;
+}
