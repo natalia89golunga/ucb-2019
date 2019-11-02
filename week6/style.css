@@ -1,0 +1,11 @@
+.background {
+  height: 900px;
+  background-image: url("images/dbbackground.jpg");
+}
+.carousel-image {
+  height: 600px;
+  object-fit: cover;
+}
+.header {
+  font-size: 45px;
+}
