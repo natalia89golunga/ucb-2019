@@ -1,1 +1,3 @@
-# Its hosted on my domain "natgolunga.com"
+# Hosted on:
+
+http://www.natgolunga.com
