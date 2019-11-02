@@ -8,4 +8,16 @@
 }
 .header {
   font-size: 45px;
+  margin-bottom: 40px;
+}
+.dates {
+  font-size: 20px;
+}
+
+.festival, .city {
+  line-height: 30px;
+}
+
+.festivalRow {
+  margin-bottom: 30px;
 }
