@@ -26,9 +26,9 @@ $(document).ready(function() {
   });
 
   // discography page
-  $("#album-1").hover(function() {
-    $("#album-1-text").addClass("album-name");
-  });
+  // $("#album-1").hover(function() {
+  //   $("#album-1-text").addClass("album-name");
+  // });
 
   // news page
   var delay = 1400;

@@ -2,7 +2,7 @@
   height: 900px;
   background-position: center;
   text-align: center;
-  background-image: url("images/dbbackground.jpg");
+  background-image: url("images/homedb.jpg");
 }
 
 
@@ -96,6 +96,13 @@
 }
 
 #news-1 {
+  background-position: center;
+  background-image: url("images/news1.jpg");
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+#news-2 {
   background-position: center;
   background-image: url("images/news1.jpg");
   color: white;
