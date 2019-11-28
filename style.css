@@ -1,14 +1,31 @@
-.background {
-  height: 900px;
-  background-position: center;
+/* index */
+.navbar {
+  opacity: 0.4;
+}
+
+.live-shows {
+  margin-top: 100px;
   text-align: center;
-  background-image: url("images/homedb.jpg");
+}
+
+.live-show-box {
+  background: rgba(255,255,255,0.3);
+  font-size: 35px;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+body {
+background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
+  /* background-image: linear-gradient(#333680,#8F99CC); */
 }
 
 
-.player {
-  margin-top: 500px;
+
+.white-text {
+  color: #E8E8E8
 }
+/* Media*/
 .carousel-image {
   height: 600px;
   object-fit: cover;
@@ -17,6 +34,8 @@
   font-size: 45px;
   margin-bottom: 40px;
 }
+
+/* shows*/
 .dates {
   font-size: 20px;
 }
@@ -26,7 +45,14 @@
 }
 
 .festivalRow {
-  margin-bottom: 30px;
+  border-bottom: 1px solid 	#808080;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+.tickets {
+  text-align: right;
 }
 
 .zoom {
@@ -83,10 +109,13 @@
   transform: rotateY(180deg);
 }
 
-.album-name {
-  margin-top: 120px;
+.buy-now-row {
+  margin-top: 60px;
   font-size: 25px;
   text-align: center;
+  margin-bottom: 80px;
+  border-bottom: 1px solid 	#808080;
+  padding-bottom: 40px;
 }
 /* News page */
 .news-item {
@@ -119,4 +148,39 @@
 
 .spacer-medium {
   height: 60px;
+}
+
+/* Merch */
+.merch-container {
+  margin-top: 50px;
+  padding-left: 80px;
+}
+.merch-container > .row {
+  margin-bottom: 50px;
+}
+.btn {
+  border-radius: 16px;
+
+}
+.merch-container .btn {
+  margin-left: 30px;
+  background-color: #FA6953;
+  border-width: 0px;
+}
+
+/* Index */
+
+#video-index {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('images/video-index.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
 }
