@@ -8,6 +8,9 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <script src="merch.js"> </script>
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153206139-1"></script>
   <script>
@@ -50,25 +53,35 @@
     </div>
   </nav>
 
+  <div class="container filter-container">
+    <div class="row">
+      <div class="col">
+        <button class="btn active" id="show-all-button">Show all</button>
+        <button class="btn" id="hoodies-button">Hoodies</button>
+        <button class="btn" id="t-shirts-button">T-shirts</button>
+        <button class="btn" id="hats-button">Hats</button>
+        <button class="btn" id="shorts-button">Shorts</button>
+
+      </div>
+    </div>
+  </div>
+
+
+
     <div class="container merch-container">
       <div class="row">
         <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hoodie" style="width: 18rem;">
               <img src="images/merch-1.png" class="card-img-top">
               <div class="card-body">
-                <h4 class="card-title">Hoodie </h4>
+                <h4 class="card-title">Hoodie</h4>
                 <p class="card-text">Dark Gray</p>
                 <p class="card-text">$35
                   <a href="#" class="btn btn-dark">Add to Cart</a>
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hoodie" style="width: 18rem;">
               <img src="images/merch-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Hoodie</h4>
@@ -78,11 +91,7 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hoodie" style="width: 18rem;">
               <img src="images/merch-3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Hoodie $35</h4>
@@ -92,14 +101,7 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card t-shirt" style="width: 18rem;">
               <img src="images/merch-5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -109,11 +111,7 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card t-shirt" style="width: 18rem;">
               <img src="images/merch-6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -123,11 +121,7 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card shorts" style="width: 18rem;">
               <img src="images/merch-4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -137,13 +131,7 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hat" style="width: 18rem;">
               <img src="images/merch-7.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -151,11 +139,7 @@
                 <a href="#" class="btn btn-dark">Add to Cart</a>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hat" style="width: 18rem;">
               <img src="images/merch-8.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -163,11 +147,7 @@
                 <a href="#" class="btn btn-dark">Add to Cart</a>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="row">
-            <div class="card" style="width: 18rem;">
+            <div class="card hat" style="width: 18rem;">
               <img src="images/merch-11.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Card title</h4>
@@ -175,12 +155,12 @@
                 <a href="#" class="btn btn-dark">Add to Cart</a>
               </div>
             </div>
-          </div>
+
         </div>
       </div>
     </div>
 
-
+<div class="footer"></div>
 </body>
 
 </html>

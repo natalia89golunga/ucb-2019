@@ -151,6 +151,15 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
 }
 
 /* Merch */
+.hidden {
+  display: none;
+}
+
+.card {
+  float: left;
+  margin: 20px;
+}
+
 .merch-container {
   margin-top: 50px;
   padding-left: 80px;
@@ -165,6 +174,20 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
 .merch-container .btn {
   margin-left: 30px;
   background-color: #FA6953;
+  border-width: 0px;
+}
+
+.filter-container .btn {
+ background-color: #F5F5F5;
+}
+
+.filter-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.btn.active {
+  background-color: #6875ba;
   border-width: 0px;
 }
 
@@ -183,4 +206,42 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
  background: url('images/video-index.png') no-repeat;
   background-size: cover;
   transition: 1s opacity;
+}
+
+/* Media */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  color: #E8E8E8;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  height: 80px;
 }
