@@ -20,7 +20,9 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
   /* background-image: linear-gradient(#333680,#8F99CC); */
 }
 
-
+#home-logo {
+  max-width: 100%;
+}
 
 .white-text {
   color: #E8E8E8
@@ -117,6 +119,13 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
   border-bottom: 1px solid 	#808080;
   padding-bottom: 40px;
 }
+
+.buy-now-row .btn {
+  font-size: 1.2rem;
+  background-color: #6875ba;
+  border-width: 0px;
+}
+
 /* News page */
 .news-item {
   font-size: 40px;
@@ -151,6 +160,19 @@ background-image: linear-gradient(to bottom right, #000000, #AFBBFA);
 }
 
 /* Merch */
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image img {
+  transition: transform .5s ease;
+}
+
+.card-image:hover img {
+  transform: scale(1.2);
+}
+
 .hidden {
   display: none;
 }

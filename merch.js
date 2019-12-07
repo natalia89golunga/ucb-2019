@@ -8,9 +8,7 @@ $(document).ready(function() {
   });
 
   $("#hoodies-button").click(function() {
-    $(".hat").addClass("hidden");
-    $(".t-shirt").addClass("hidden");
-    $(".shorts").addClass("hidden");
+    $(".card").addClass("hidden");
     $(".hoodie").removeClass("hidden");
 
     $(".filter-container .btn").removeClass("active");
@@ -18,9 +16,7 @@ $(document).ready(function() {
   });
 
   $("#t-shirts-button").click(function() {
-    $(".hat").addClass("hidden");
-    $(".hoodie").addClass("hidden");
-    $(".shorts").addClass("hidden");
+    $(".card").addClass("hidden");
     $(".t-shirt").removeClass("hidden");
 
     $(".filter-container .btn").removeClass("active");
@@ -29,9 +25,7 @@ $(document).ready(function() {
   });
 
   $("#hats-button").click(function() {
-    $(".hoodie").addClass("hidden");
-    $(".t-shirt").addClass("hidden");
-    $(".shorts").addClass("hidden");
+    $(".card").addClass("hidden");
     $(".hat").removeClass("hidden");
 
     $(".filter-container .btn").removeClass("active");
